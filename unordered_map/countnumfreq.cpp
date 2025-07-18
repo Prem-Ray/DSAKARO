@@ -14,8 +14,6 @@ int main(){
     for(auto it:mpp){
         cout<<it.first<<" : "<<it.second<<endl ;
     }
-
-
-
+    cout<<"Size of map: "<<mpp.size()<<endl ;
     return 0 ;
 }
